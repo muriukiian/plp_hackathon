@@ -1,0 +1,41 @@
+<!--Create the basic structure of an html document-->
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(github-6980894_1280.webp);">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>PLP | Hackathon</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <!--Structuring and formating texts using paragraph tags-->
+        <!--check the p and h1 element styling in the style.css file-->
+        <h1>PLP | Hackathon</h1>
+        <p>This is a html hackathon from plp. Only the strong survive</p>
+      </header>
+    </section>
+    <section>
+      <!--Using hyperlinks to navigate web pages-->
+      <p>Click <a href="https://www.linkedin.com/in/ianmuriuki" target="_blank">here</a> to see my linkedin profile</p>
+      <!--Incoporating images into my webpage-->
+      <figure>
+        <img src="github-6980894_1280.webp" alt="github logo" class="image">
+        <figcaption class="text"><u>This is the real github logo.</u></figcaption>
+      </figure>
+      <!--create a form for signing in to github-->
+      <div class="box">
+        <form class="left flex-1 form-content">
+          <label><strong><u>Sign In</u></strong></label><br>
+          <label for="name">Username</label><br>
+          <input type="name" id="name" name="name" placeholder="Enter your Username" required><br>
+          <label for="password">Password</label><br>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required autofill="off" aria-describedby="hint"><br>
+          <div id="hint"><u>password must be atleast 8 characters.</u></div><br>
+          <button type="submit" class="button">Sign in</button>
+        </form>
+      </div>
+      <footer></footer>
+    </section>
+  </body>
+</html>
